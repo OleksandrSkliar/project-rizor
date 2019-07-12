@@ -1,0 +1,33 @@
+.main-nav {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 63px;
+  justify-content: space-between;
+  background-color: #3e4850;
+  opacity: 0.85;
+  text-transform: uppercase;
+}
+
+.main-nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__item {
+  padding-left: 50px;
+}
+
+.main-nav__link {
+  @include text (14px,24px,700);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-nav__wrapper {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}

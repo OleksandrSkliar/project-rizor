@@ -1,0 +1,17 @@
+.welcome__text {
+  @include text (35px,75px,300);
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 260px;
+  padding-bottom: 235px;
+  padding-left: 107px;
+  padding-right: 112px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.welcome__background {
+  background-color: #3e4850;
+  padding: 18px;
+  opacity: 0.85;
+}

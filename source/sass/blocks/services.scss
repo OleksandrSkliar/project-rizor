@@ -1,0 +1,11 @@
+.services {
+  padding-top: 80px;
+  padding-bottom: 75px;
+}
+
+.services__head {
+  @include text (30px,24px,300);
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
