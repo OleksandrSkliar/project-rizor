@@ -1,11 +1,55 @@
 .services {
   padding-top: 80px;
   padding-bottom: 75px;
+  color: #ffffff;
 }
 
 .services__head {
   @include text (30px,24px,300);
-  color: #ffffff;
   text-transform: uppercase;
   margin: 0;
+}
+
+.services__title {
+  @include text (24px,24px);
+  text-transform: uppercase;
+}
+
+.services__item {
+  width: 300px;
+  padding-top: 50px;
+  list-style: none;
+}
+
+.services__description {
+  @include text;
+}
+
+.services__list {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.services__item--coffee,
+.services__item--instant,
+.services__item--serious,
+.services__item--frame {
+background-repeat: no-repeat;
+}
+
+.services__item--coffee {
+  background-image: url("../img/coffee.png");
+}
+
+.services__item--instant {
+background-image: url("../img/instant.png");
+}
+
+.services__item--serious {
+background-image: url("../img/serious.png");
+}
+
+.services__item--frame {
+  background-image: url("../img/frame.png");
 }
