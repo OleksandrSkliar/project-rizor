@@ -1,0 +1,32 @@
+.button {
+  position: absolute;
+  top: 20%;
+  right: 36%;
+  display: block;
+  width: 32px;
+  height: 33px;
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 33px;
+  height: 4px;
+  background-color: #ffffff;
+  transform: rotate(90deg);
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 32px;
+  height: 4px;
+  background-color: #ffffff;
+}
