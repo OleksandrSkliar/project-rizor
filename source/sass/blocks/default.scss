@@ -1,0 +1,45 @@
+.default {
+  background-color: #515f67;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.default__text {
+  width: 470px;
+}
+
+.default__title {
+  @include text (30px,24px,300);
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.default__description {
+  @include text (14px,24px,400);
+  color: #ffffff;
+}
+
+.default__btn {
+  @include text (14px,24px,700);
+  display: block;
+  width: 60px;
+  text-transform: uppercase;
+  background-color: inherit;
+  color: #353f46;
+  border: 0;
+  border: 2px solid #353f46;
+  padding: 18px 40px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.default__video {
+  opacity: 0.8;
+}
+
+.default__wrapper {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,13 +1,14 @@
 .services {
-  padding-top: 80px;
-  padding-bottom: 75px;
+  padding-top: 70px;
+  padding-bottom: 60px;
   color: #ffffff;
 }
 
 .services__head {
   @include text (30px,24px,300);
   text-transform: uppercase;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .services__title {
@@ -16,18 +17,19 @@
 }
 
 .services__item {
-  width: 300px;
+  width: 280px;
   padding-top: 50px;
   list-style: none;
 }
 
 .services__description {
-  @include text;
+  @include text(12px,18px,400);
 }
 
 .services__list {
   display: flex;
   padding: 0;
+  margin: 0;
   justify-content: space-around;
 }
 
