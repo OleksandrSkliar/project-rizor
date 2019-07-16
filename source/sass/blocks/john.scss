@@ -1,0 +1,32 @@
+.john {
+  background-image: url("../img/bg_photo.png");
+  background-repeat: no-repeat;
+}
+
+.john__wrapper {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.john__description {
+  width: 570px;
+}
+
+.john__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.john__title {
+  @include text (30px,24px,300);
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.john__description {
+  @include text (14px,24px,400);
+  color: #ffffff;
+}
