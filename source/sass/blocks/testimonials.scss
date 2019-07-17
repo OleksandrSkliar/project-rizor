@@ -1,0 +1,29 @@
+.testimonials {
+  background-color: #ffffff;
+  color: #515f67;
+}
+
+.testimonials__title {
+  @include text (30px,24px,300);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-image: url("../img/quotes-symbol.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.testimonials__text {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.testimonials__descripcion {
+  @include text (28px,50px,300);
+  margin: 0;
+}
+
+.testimonials__writer {
+  @include text (14px,50px,700);
+  color: #4bcaff;
+}
