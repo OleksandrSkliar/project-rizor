@@ -1,0 +1,122 @@
+.contact {
+  background-image: url("../img/form.png");
+  color: #ffffff;
+  min-height: 814px;
+}
+
+.contact__form input[type="text"],
+.contact__form input[type="email"] {
+  width: 470px;
+  height: 60px;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: inherit;
+  text-transform: none;
+}
+
+.contact__label {
+  @include text (14px,24px,700);
+  display: block;
+  text-transform: uppercase;
+}
+
+.contact__descripcion-text {
+  width: 531px;
+  @include text (14px,24px,400);
+  margin-bottom: 30px;
+}
+
+.contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contact__title {
+  @include text (30px,24px,300);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.contact__textarea {
+  width: 1170px;
+  height: 187px;
+  border: 2px solid #ffffff;
+  background-color: inherit;
+  padding: 15px 15px;
+  color: #ffffff;
+}
+
+.contact__text {
+  position: absolute;
+  right: 0;
+}
+
+.contact__descripcion-text--contact {
+  width: 242px;
+  margin-top: 0;
+}
+
+.contact__btn {
+  @include text (14px,24px,700);
+  background-color: #4bcaff;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 25px 150px;
+  border: 0;
+}
+
+.contact__btn:hover {
+  background-color: #3bcaff;
+  box-shadow: 0px 0px 15px #3bcaff;
+}
+
+.contact__btn:active {
+  border-color: #4bcaff;
+  box-shadow: 0px 0px 15px #4bcaff;
+  opacity: 0.7;
+}
+
+.contact__descripcion,
+.contact__descripcion-message {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.contact__form input:hover,
+.contact__textarea:hover {
+  border: 2px solid #b4b9bb;
+}
+
+.contact__form input:focus,
+.contact__textarea:focus {
+  border: 2px solid #4bcaff;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+  color: #ffffff;
+}
+
+.contact__input:-moz-placeholder,
+.contact__textarea:-moz-placeholder {
+  color: #ffffff;
+}
+
+.contact__input::-moz-placeholder,
+.contact__textarea:-moz-placeholder {
+  color: #ffffff;
+}
+
+.contact__input::-webkit-input-placeholder,
+.contact__textarea:-moz-placeholder {
+  color: #ffffff;
+}
+
+.contact__input:-ms-placeholder,
+.contact__textarea:-moz-placeholder {
+  color: #ffffff;
+}

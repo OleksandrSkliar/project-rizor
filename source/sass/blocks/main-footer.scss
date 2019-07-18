@@ -1,0 +1,42 @@
+.main-footer {
+  background-color: #353f47;
+  color: #515f67;
+  height: 170px;
+}
+
+.main-footer__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 292px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer__link {
+  @include text (14px,24px,400);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #515f67;
+}
+
+.main-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+
+.main-footer__year {
+  @include text (12px,24px,400);
+}
+
+.main-footer__link:hover {
+  color: #4bcaff;
+}
+
+.main-footer__link:active {
+  border-color: #4bcaff;
+  opacity: 0.5;
+}
