@@ -8,10 +8,6 @@
   padding-bottom: 160px;
 }
 
-.john__description {
-  width: 570px;
-}
-
 .john__content {
   display: flex;
   flex-wrap: wrap;
@@ -29,4 +25,5 @@
 .john__description {
   @include text (14px,24px,400);
   color: #ffffff;
+  width: 570px;
 }

@@ -23,8 +23,8 @@
 }
 
 .contact__descripcion-text {
-  width: 531px;
   @include text (14px,24px,400);
+  width: 531px;
   margin-bottom: 30px;
 }
 
@@ -71,12 +71,12 @@
 
 .contact__btn:hover {
   background-color: #3bcaff;
-  box-shadow: 0px 0px 15px #3bcaff;
+  box-shadow: 0 0 15px #3bcaff;
 }
 
 .contact__btn:active {
   border-color: #4bcaff;
-  box-shadow: 0px 0px 15px #4bcaff;
+  box-shadow: 0 0 15px #4bcaff;
   opacity: 0.7;
 }
 
@@ -99,24 +99,29 @@
 .contact__input::placeholder,
 .contact__textarea::placeholder {
   color: #ffffff;
+  opacity: 0.5;
 }
 
 .contact__input:-moz-placeholder,
 .contact__textarea:-moz-placeholder {
   color: #ffffff;
+  opacity: 0.5;
 }
 
 .contact__input::-moz-placeholder,
 .contact__textarea:-moz-placeholder {
   color: #ffffff;
+  opacity: 0.5;
 }
 
 .contact__input::-webkit-input-placeholder,
 .contact__textarea:-moz-placeholder {
   color: #ffffff;
+  opacity: 0.5;
 }
 
 .contact__input:-ms-placeholder,
 .contact__textarea:-moz-placeholder {
   color: #ffffff;
+  opacity: 0.5;
 }

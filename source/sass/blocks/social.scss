@@ -1,9 +1,8 @@
 .social__link {
-  display: inline-block;
-  width: 61px;
-  height: 61px;
   display: flex;
   justify-content: center;
+  width: 61px;
+  height: 61px;
   align-items: center;
   border: 2px solid #ffffff;
 }
@@ -20,16 +19,11 @@
 
 .social__link:hover {
   border-color: #4bcaff;
-  box-shadow: 0px 0px 15px #4bcaff;
+  box-shadow: 0 0 15px #4bcaff;
 }
 
 .social__link:active {
   border-color: #4bcaff;
-  box-shadow: 0px 0px 15px #4bcaff;
+  box-shadow: 0 0 15px #4bcaff;
   opacity: 0.5;
-}
-
-.social__link:hover path,
-.social__link:hover polygon {
-  fill: #4bcaff;
 }
